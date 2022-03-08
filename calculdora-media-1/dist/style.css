@@ -1,0 +1,53 @@
+body {
+        font-family: 'Cousine', monospace;
+        min-height: 400px;
+        background: linear-gradient(0deg, rgba(19,21,23,1) 0%, rgba(41,47,54,1) 100%);
+        background-size: 100%;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+      }
+
+      .container {
+        text-align: center;
+        padding: 20px;
+        height: 100vh;
+      }
+
+      .logo {
+        height: 7rem;
+        border-style: solid;
+        margin-top: 5px;
+        border-radius: 10px;
+        border-color: #292D36;
+      }
+
+      .javascript {
+        font-size:30px;
+        color:white;
+        opacity: 90%;
+        border-style: solid;
+        border-radius: 10px;
+        background-color:#292f36;
+        border-color: #292D36;
+      }
+
+      .page-title {
+        color:#4ECDC4;
+        top: 10px;
+      }
+
+      .page-subtitle {
+        color:#FF6B6B;
+        margin-top: 5px;
+      }
+
+      .page-logo {
+        width: 200px;
+      }
+
+      .alura-logo {
+        width: 40px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
