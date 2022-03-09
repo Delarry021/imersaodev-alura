@@ -1,0 +1,103 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 600px;
+  background-image: url("https://i.pinimg.com/originals/d0/02/79/d00279a83820aa6f77e1f42e73a6e3f2.gif");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 3rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+p,
+label {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  background-color: rgba(31, 31, 31, 0.76);
+  border-radius: 2rem;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  box-sizing: border-box;
+  font: inherit;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.25rem;
+  color: white;
+  width: 12rem;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  border-style: none;
+  background-color: #40c4ff;
+}
+
+button {
+  border-radius: 5rem;
+  border-style: none;
+  background-color: #40c4ff;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  width: 12rem;
+  height: 4rem;
+  font: inherit;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+.resultado {
+  border-radius: 10px;
+  border-style: none;
+  background-color: #40c4ff;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  width: 24rem;
+  height: 12rem;
+  font: inherit;
+  font-size: 1.2rem;
+  color: 1f1f1f;
+  text-align: center;
+}
