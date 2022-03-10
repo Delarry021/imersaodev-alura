@@ -1,0 +1,94 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 600px;
+  background: rgb(0, 79, 89);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 79, 89, 1) 0%,
+    rgba(91, 22, 153, 1) 100%
+  );
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+#exibir {
+  border-radius: 2rem;
+}
+
+h2 {
+  color: white;
+  border-radius: 4px;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 79, 89, 1) 0%,
+    rgba(91, 22, 153, 1) 100%
+  );
+  font: inherit;
+  font-size: 1.2rem;
+  color: 1f1f1f;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font: inherit;
+  font-size: 1.2rem;
+  color: 1f1f1f;
+  text-align: center;
+}
+
+.botao {
+  border-radius: 5rem;
+  border-style: none;
+  background-color: #df0e0e;
+  box-sizing: border-box;
+  width: 12rem;
+  height: 4rem;
+  font: inherit;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
