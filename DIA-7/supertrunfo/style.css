@@ -69,4 +69,7 @@ body {
   .opcoes {
     color: white;
   }
-  
+
+  img {
+    max-height: 32rem;
+  }
